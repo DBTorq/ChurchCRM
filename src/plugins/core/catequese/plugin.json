@@ -1,0 +1,22 @@
+{
+  "id": "catequese",
+  "name": "Módulo de Catequese",
+  "description": "Sistema completo para gestão de catequese: rematrícula anual, controle de documentos, validação de responsável para menores, registro de presença com justificativas (Tô Aqui Jesus) e ranking para sorteio.",
+  "version": "1.0.0",
+  "author": "ChurchCRM Community",
+  "authorUrl": "https://churchcrm.io",
+  "type": "core",
+  "minimumCRMVersion": "7.0.0",
+  "mainClass": "ChurchCRM\\Plugins\\Catequese\\CatequesePlugin",
+  "dependencies": [],
+  "settingsUrl": null,
+  "routesFile": "routes/routes.php",
+  "settings": [],
+  "menuItems": [],
+  "hooks": [
+    "person.view.tabs",
+    "dashboard.widgets",
+    "event.checkin",
+    "person.updated"
+  ]
+}
